@@ -157,13 +157,14 @@ function renderImpact(p) {
 function renderWork(project, accent) {
   const W = 407;
   const blurbLines = wrapLines(project.blurb, 48);
+  const blurbStart = 78;
   const blurbSvg = blurbLines
     .map(
       (ln, i) =>
-        `<text x="22" y="${52 + i * 15}" fill="${COLORS.muted}" font-size="12">${esc(ln)}</text>`
+        `<text x="22" y="${blurbStart + i * 15}" fill="${COLORS.muted}" font-size="12">${esc(ln)}</text>`
     )
     .join("\n");
-  const blurbBlock = 52 + blurbLines.length * 15;
+  const blurbBlock = blurbStart + blurbLines.length * 15;
   const urlY = blurbBlock + 8;
   const modsStart = urlY + 24;
   const chips = project.stack.join("  ·  ");

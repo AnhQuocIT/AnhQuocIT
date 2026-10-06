@@ -26,13 +26,21 @@ Repo must be named **`AnhQuocIT/AnhQuocIT`** (same as username) and **public**.
 
 Do **not** enable metrics plugins that list private repo names (`repositories`, `notable`, `projects`).
 
-## Profile settings (manual)
+## Profile settings (manual — CLI token lacks `user` scope)
 
-- Name: Nguyen Anh Quoc  
-- Bio: Senior Frontend Developer — architecture, performance, WebGL/3D  
-- Location: Ho Chi Minh City  
-- LinkedIn: `https://linkedin.com/in/anhquocit`  
-- Website: optional (portfolio or radanhadat.vn)  
-- Enable **Private contributions** on the contribution graph  
-- Pin: profile repo only (or none)  
-- Optional: archive old student public repos
+Open https://github.com/settings/profile and set:
+
+- **Name:** Nguyen Anh Quoc  
+- **Bio:** Senior Frontend Developer — architecture, performance, production WebGL/3D  
+- **Location:** Ho Chi Minh City, Vietnam  
+- **URL:** `https://linkedin.com/in/anhquocit` (or portfolio)  
+- **Social accounts:** add LinkedIn  
+
+Then:
+
+1. https://github.com/settings/profile → **Contributions** → enable **Private contributions**  
+2. https://github.com/AnhQuocIT → Customize pins → pin **AnhQuocIT** only (or leave empty)  
+3. Optional: archive student repos (`MusicApp-Android-Studio`, `Java-Lab-example`, `covid-app`, old e-commerce labs, `DGHOME`, …)  
+4. Create classic PAT (`repo` + `read:user`) → repo secret `METRICS_TOKEN` → run **Metrics** workflow  
+
+Live profile: https://github.com/AnhQuocIT

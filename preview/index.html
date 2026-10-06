@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AnhQuocIT profile preview</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #0A0E14;
+      color: #E6EDF3;
+      font-family: system-ui, sans-serif;
+      padding: 24px 16px 64px;
+    }
+    h1 { font-size: 14px; font-weight: 500; color: #9BA4AE; letter-spacing: 0.04em; text-transform: uppercase; }
+    .frame {
+      max-width: 830px;
+      margin: 0 auto;
+    }
+    .frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 0 16px;
+    }
+    .row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .row img { width: calc(50% - 8px); margin: 0; }
+    .note {
+      max-width: 830px;
+      margin: 24px auto 0;
+      font-size: 13px;
+      color: #9BA4AE;
+      line-height: 1.5;
+    }
+    .narrow {
+      max-width: 400px;
+      margin: 48px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid #1F2630;
+    }
+    .narrow h2 { font-size: 12px; color: #7DD3FC; font-family: ui-monospace, monospace; }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <h1>Desktop ~830px</h1>
+    <img src="../assets/cards/hero.svg" alt="Hero" />
+    <img src="../assets/cards/impact.svg" alt="Impact" />
+    <div class="row">
+      <img src="../assets/cards/work-radanhadat.svg" alt="Radanhadat" />
+      <img src="../assets/cards/work-dghome.svg" alt="dghome3d" />
+    </div>
+    <div class="row">
+      <img src="../assets/cards/stack.svg" alt="Stack" />
+      <img src="../assets/cards/now.svg" alt="Now" />
+    </div>
+  </div>
+
+  <div class="narrow">
+    <h2>// mobile ~400px</h2>
+    <img src="../assets/cards/hero.svg" alt="Hero mobile" style="width:100%;margin:12px 0" />
+    <img src="../assets/cards/impact.svg" alt="Impact mobile" style="width:100%;margin:12px 0" />
+    <img src="../assets/cards/work-radanhadat.svg" alt="Work mobile" style="width:100%;margin:12px 0" />
+  </div>
+
+  <p class="note">
+    Local preview for AnhQuocIT profile README. Metrics card appears on GitHub after the Metrics workflow runs.
+    Open this file via a local static server if fonts look wrong in file:// (embedded fonts should work either way).
+  </p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="120" viewBox="0 0 830 120" role="img">
+  <rect width="830" height="120" rx="16" fill="#11161D" stroke="#1F2630"/>
+  <text x="28" y="52" font-family="ui-monospace, Menlo, monospace" fill="#7DD3FC" font-size="12">// metrics</text>
+  <text x="28" y="80" font-family="system-ui, sans-serif" fill="#9BA4AE" font-size="14">Pending  add METRICS_TOKEN secret and run the Metrics workflow.</text>
+</svg>

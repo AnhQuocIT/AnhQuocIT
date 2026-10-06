@@ -1,0 +1,86 @@
+# Single source of truth for AnhQuocIT profile README cards.
+# Edit here, then: node scripts/render-cards.mjs
+
+accent: "#7DD3FC"
+name: Nguyen Anh Quoc
+handle: anhquoc
+role: Senior Frontend Developer
+years: "7+"
+location: Ho Chi Minh City, Vietnam
+tagline: Frontend architecture, performance, and production WebGL/3D — from SSR platforms to tablet-ready editors.
+prompt: "~/anhquoc $ whoami"
+
+contact:
+  linkedin: https://linkedin.com/in/anhquocit
+  github: https://github.com/AnhQuocIT
+  email: quocnguyenn0206@gmail.com
+  live: https://radanhadat.vn
+
+impact:
+  - value: "10+"
+    label: projects + 5+ sample houses
+    detail: 3D editor used in live sales consultations
+  - value: "iPad"
+    label: and mobile ready
+    detail: Editor went from crash/stutter to stable use
+  - value: "1"
+    label: script lead capture
+    detail: Embeddable contact SDK on 10+ landing pages
+  - value: "2-3"
+    label: FE lead / reviewer
+    detail: Led 2, then reviewed for up to 3 engineers
+
+work:
+  - id: radanhadat
+    title: Radanhadat
+    subtitle: Vietnam property listing platform
+    url: https://radanhadat.vn
+    blurb: Map search, SSR listings, tracking, contact SDK, and broker tooling across web and Flutter.
+    modules:
+      - name: Marketplace
+        note: SSR site — map, Radamap, tracking
+      - name: Sales Revo
+        note: Broker SaaS — orders, payments, push
+      - name: CRM
+        note: Staff console — moderation, products
+      - name: Contact SDK
+        note: Embeddable lead forms + CDN
+      - name: Brokerage app
+        note: Flutter WebView bridge, auth sync
+      - name: Website / Admin
+        note: Nuxt 4 rewrite + new admin app
+    stack: [Nuxt 3/4, Vue 3, Google Maps, Flutter, Storybook]
+
+  - id: dghome
+    title: dghome3d
+    subtitle: 3D interior design and build
+    url: null
+    blurb: End-to-end 3D room editor with scene-driven quotes, mobile performance, and glTF tooling.
+    modules:
+      - name: Design tool
+        note: Nuxt + PlayCanvas editor and quotes
+      - name: Inside
+        note: Admin — CASL, Socket.IO
+      - name: Model tools
+        note: glTF validator and layout studio
+      - name: Web
+        note: Marketing site + embedded scenes
+    stack: [Nuxt 3, PlayCanvas, React, GraphQL, NestJS]
+
+stack:
+  Core: [JavaScript, TypeScript, HTML5, CSS3]
+  Frameworks: [Vue.js, Nuxt 3/4, React, Next.js, Angular]
+  "3D / Maps": [PlayCanvas, Three.js, R3F, WebGL, Google Maps]
+  Tooling: [Vite, Pinia, Storybook, NestJS BFF, GraphQL]
+  Testing: [Vitest, Playwright, Mocha, Jasmine]
+  Ways of working: [Scrum, code review, mentoring, docs]
+
+now:
+  focus: Building the new Radanhadat admin app for orders, banners, and listings.
+  personal:
+    - title: 3D Printing Shop
+      note: Configurable storefront with R3F previews (Next.js, Supabase).
+      url: https://poko-hobby-3d.com
+    - title: Trading Skill Compiler
+      note: Personal tooling for structured trading skills (private).
+      url: null

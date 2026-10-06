@@ -1,0 +1,13 @@
+{
+  "name": "anhquocit-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fonts": "bash scripts/subset-fonts.sh",
+    "cards": "node scripts/render-cards.mjs",
+    "build": "npm run fonts && npm run cards"
+  },
+  "dependencies": {
+    "yaml": "^2.7.0"
+  }
+}

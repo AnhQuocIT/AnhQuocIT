@@ -129,6 +129,7 @@ function renderImpact(p) {
     .map((t, i) => {
       const x = pad + i * (tileW + gap);
       const y = top;
+      const valueSize = String(t.value).length > 6 ? 18 : 24;
       const lines = wrapLines(t.detail, 22);
       const detail = lines
         .map(
@@ -138,7 +139,7 @@ function renderImpact(p) {
         .join("\n");
       return `
   <rect x="${x}" y="${y}" width="${tileW}" height="${tileH}" rx="12" fill="${COLORS.bg}" stroke="${COLORS.border}"/>
-  <text x="${x + 14}" y="${y + 34}" class="mono" fill="${accent}" font-size="24" font-weight="500">${esc(t.value)}</text>
+  <text x="${x + 14}" y="${y + 34}" class="mono" fill="${accent}" font-size="${valueSize}" font-weight="500">${esc(t.value)}</text>
   <text x="${x + 14}" y="${y + 58}" fill="${COLORS.text}" font-size="12.5" font-weight="500">${esc(t.label)}</text>
   ${detail}`;
     })

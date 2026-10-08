@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/cards/impact.svg" alt="Impact: 10+ projects and 5+ sample houses with the 3D editor; 3–4× frame rate on iPad and mobile (30–40 FPS, crashes cut 90%+); one-script lead capture SDK; led 2 then reviewed for up to 3 frontend engineers." width="830" />
+  <img src="assets/cards/impact.svg" alt="Impact: 7+ years frontend; 10+ modules shipped across 2 production platforms; SSR, 3D, and SDK strengths; led 4-5 frontend engineers as lead, reviewer, and mentor." width="830" />
 </p>
 
 <p align="center">
@@ -46,10 +46,10 @@
 Frontend architecture, performance, and production WebGL/3D — from SSR platforms to tablet-ready editors.
 
 **Impact**
-- 10+ projects and 5+ sample houses: 3D editor used in live sales consultations
-- iPad and mobile: 3–4× frame rate (30–40 FPS) and 90%+ fewer crashes via adaptive resolution, clustered lighting, and texture compression
-- Contact SDK: embeddable lead capture on 10+ landing pages with one script
-- Led a frontend team of 2, then primary reviewer for up to 3 engineers
+- 7+ years frontend: Vue, Nuxt, React, Next.js, Angular in production
+- 10+ modules shipped across 2 production platforms (web and Flutter)
+- Core strengths: SSR/SEO platforms, WebGL editors, embeddable SDKs
+- 4-5 FE engineers led: lead, reviewer, and mentor across 2 products
 
 **Selected work**
 - **Radanhadat** ([radanhadat.vn](https://radanhadat.vn)) — Marketplace, Sales Revo, CRM, Contact SDK, Flutter brokerage bridge, Nuxt 4 site + admin

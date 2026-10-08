@@ -17,18 +17,18 @@ contact:
   live: https://radanhadat.vn
 
 impact:
+  - value: "7+"
+    label: yrs frontend
+    detail: Vue, Nuxt, React, Next.js, Angular in production
   - value: "10+"
-    label: projects + 5+ sample houses
-    detail: 3D editor used in live sales consultations
-  - value: "3–4×"
-    label: FPS on iPad and mobile
-    detail: 30–40 FPS, crashes cut 90%+ with adaptive resolution
-  - value: "1"
-    label: script lead capture
-    detail: Embeddable contact SDK on 10+ landing pages
-  - value: "2-3"
-    label: FE lead / reviewer
-    detail: Led 2, then reviewed for up to 3 engineers
+    label: modules shipped
+    detail: Across 2 production platforms, web and Flutter
+  - value: "SSR·3D·SDK"
+    label: core strengths
+    detail: SEO platforms, WebGL editors, embeddable SDKs
+  - value: "4-5"
+    label: FE engineers led
+    detail: Lead, reviewer, and mentor across 2 products
 
 work:
   - id: radanhadat

@@ -20,9 +20,9 @@ impact:
   - value: "10+"
     label: projects + 5+ sample houses
     detail: 3D editor used in live sales consultations
-  - value: "iPad"
-    label: and mobile ready
-    detail: Editor went from crash/stutter to stable use
+  - value: "3–4×"
+    label: FPS on iPad and mobile
+    detail: 30–40 FPS, crashes cut 90%+ with adaptive resolution
   - value: "1"
     label: script lead capture
     detail: Embeddable contact SDK on 10+ landing pages

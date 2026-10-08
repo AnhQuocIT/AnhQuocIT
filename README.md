@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/cards/impact.svg" alt="Impact: 10+ projects and 5+ sample houses with the 3D editor; iPad and mobile ready; one-script lead capture SDK; led 2 then reviewed for up to 3 frontend engineers." width="830" />
+  <img src="assets/cards/impact.svg" alt="Impact: 10+ projects and 5+ sample houses with the 3D editor; 3–4× frame rate on iPad and mobile (30–40 FPS, crashes cut 90%+); one-script lead capture SDK; led 2 then reviewed for up to 3 frontend engineers." width="830" />
 </p>
 
 <p align="center">
@@ -47,7 +47,7 @@ Frontend architecture, performance, and production WebGL/3D — from SSR platfor
 
 **Impact**
 - 10+ projects and 5+ sample houses: 3D editor used in live sales consultations
-- iPad and mobile: editor went from crash/stutter to stable use
+- iPad and mobile: 3–4× frame rate (30–40 FPS) and 90%+ fewer crashes via adaptive resolution, clustered lighting, and texture compression
 - Contact SDK: embeddable lead capture on 10+ landing pages with one script
 - Led a frontend team of 2, then primary reviewer for up to 3 engineers
 
